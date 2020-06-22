@@ -2,16 +2,16 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "socket.io chat app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/randelpalu/chat-app.git"
   },
-  "author": "Randel Palu <vanderpalu@yandex.com>",
+  "author": "Randel Palu <randel.palu@yandex.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/randelpalu/chat-app/issues"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/randelpalu/chat-app#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "moment": "^2.27.0",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
